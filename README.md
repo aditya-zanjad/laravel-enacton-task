@@ -24,7 +24,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-<p align="justify">Configure database details in the .env file, then run migrations & seed the database.</p>
+<p align="justify">Create database in MySQL for this application and also, configure database details in the .env file, then run migrations & seed the database.</p>
 
 ```
 php artisan migrate:fresh --seed
