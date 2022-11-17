@@ -87,7 +87,9 @@ class ShortUrlsDataTable extends DataTable
                 ->width(120),
 
             Column::make('url_key'),
-            Column::make('number_of_visits'),
+
+            Column::make('number_of_visits')
+                ->orderable(false),
 
             Column::make('created_at'),
             Column::make('updated_at'),
